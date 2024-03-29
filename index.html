@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<title>Game</title>
+	</head>
+	<body>
+		<header class="card">
+			<img src="./img/treasures.png" alt="Logo" />
+			<h1>Поиск сокровищ</h1>
+			<span id="user">[]</span>
+		</header>
+		<section>
+			<div class="gameTable card">
+				<div class="line">
+					<div class="gameButton"></div>
+					<div class="gameButton"></div>
+					<div class="gameButton"></div>
+					<div class="gameButton"></div>
+					<div class="gameButton"></div>
+					<div class="gameText">x 1.20</div>
+				</div>
+			</div>
+			<div class="choice card">
+				<h2>Количество баллов</h2>
+				<div class="scores">
+					<div class="bet selected">1000</div>
+					<div class="bet">2000</div>
+					<div class="bet">5000</div>
+					<div class="bet">10000</div>
+				</div>
+				<button type="button" class="play" disabled>Играть</button>
+			</div>
+		</section>
+
+		<div id="popUp"></div>
+
+		<script src="./js/script.js"></script>
+	</body>
+</html>
